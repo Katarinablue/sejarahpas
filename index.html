@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Sejarah Indonesia</title>
+    <link rel="stylesheet" href="sejarah.css">
+</head>
+<body>
+    <header>
+        <h1>Belajar Sejarah Indonesia dengan Permainan Interaktif</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#quiz">Kuis</a></li>
+            <li><a href="#puzzle">Puzzle</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+        </ul>
+    </nav>
+    
+
+    <div class="container">
+        <section id="quiz">
+            <h2>Kuis Sejarah Indonesia</h2>
+            <img id="quiz-image" src="642dc547cdff5e7c8f8fa2c6af2cf632.jpg" class="section-image">
+            <div id="question-container"></div>
+            <div id="score-container">
+                <p>Score: <span id="score-value">0</span></p>
+                <p>Time Left: <span id="time">15</span> seconds</p>
+            </div>
+            <button id="start-quiz" class="btn">Start Quiz</button>
+            <button id="next-button" class="btn" style="display: none;">Next Question</button>
+            <div id="notification" class="feedback hidden"></div>
+        </section>
+        
+        
+
+        <section id="puzzle">
+            <h2>Puzzle Sejarah Indonesia</h2>
+            <img id="puzzle-image" src="6ca4684f78fda46317914b5006a7e5b9.jpg" alt="Gambar Puzzle Sejarah" class="section-image">
+            <div id="puzzle-container"></div>
+            <button id="start-puzzle" class="btn">Start Puzzle</button>
+            <div id="puzzle-notification" class="feedback hidden"></div>
+        </section>
+        
+        
+        
+    </div>
+
+    <footer>
+        <p>&copy; Selamat Bermain!!</p>
+    </footer>
+    <script src="sejarah.js"></script>
+</body>
+</html>
